@@ -1,13 +1,60 @@
 body{
    background-color: black;
 }
-/*nav bar*/
+/*--------------------------nav bar----------------------------------*/
 #navigationBtn{
    position: absolute;
    top: 15px;
    right: 0;
+   font-size: 20px;
+
 }
 #header{
    width: 100vw;
    height: 40px;
+}
+#home{
+   position: relative;
+   left: -110px;
+   text-decoration: none;
+}
+#about{
+   position: relative;
+   left: -100px;
+   text-decoration: none;
+}
+#projects{
+   position: relative;
+   left: -90px;
+   text-decoration: none;
+}
+#edu{
+   position: relative;
+   left: -80px;
+   text-decoration: none;
+}
+#skills{
+   position: relative;
+   left: -70px;
+   text-decoration: none;
+}
+#qualifications{
+   position: relative;
+   left: -60px;
+   text-decoration: none;
+}
+#assigns{
+   position: relative;
+   left: -50px;
+   text-decoration: none;
+}
+#services{
+   position: relative;
+   left: -40px;
+   text-decoration: none;
+}
+#contact{
+   position: relative;
+   left: -30px;
+   text-decoration: none;
 }
