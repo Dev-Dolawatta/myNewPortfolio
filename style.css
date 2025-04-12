@@ -129,13 +129,15 @@ body{
 #homeTxt1,#homeTxt2,#homeTxt3,#homeTxt4{
    color: #FF5F1F;
    font-size: 25px;
+   font-family: sans-serif;
 }
 /*--------------------------about----------------------------------*/
 #abt{
    width: 100vw;
    height: 100vh;
    position: relative;
-   border: cyan solid 2px;
+   border-bottom: white solid 2px;
+
 }
 #subSection{
    width: 90vw;
@@ -149,6 +151,7 @@ body{
    margin: auto;
    display: grid;
    grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(1,1fr);
 
 }
 #txtAbt{
@@ -198,6 +201,45 @@ body{
    position: absolute;
    left: 180px;
 }
+#column2{
+   grid-column: 2/4;
+   border: cyan solid 2px;
+   position: relative;
+}
+#pInfo{
+   position: absolute;
+   top: 10px;
+   left: 20px;
+   color: #FF5F1F;
+   font-size: 30px;
+   font-family: sans-serif;
+}
+#abtSectionTxtDiv{
+   color: #FF5F1F ;
+   font-size: 20px;
+   font-family: sans-serif;
+   position: absolute;
+   left: 100px;
+   top: 130px;
+}
+#email{
+   position: relative;
+   top: 20px;
+}
+#address{
+   position: relative;
+   top: 40px;
+}
+#country{
+   position: relative;
+   top: 60px;
+}
+#work{
+   position: relative;
+   top: 80px;
+}
+
+
 
 
 
