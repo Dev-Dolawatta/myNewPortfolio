@@ -4,57 +4,83 @@ body{
 /*--------------------------nav bar----------------------------------*/
 #navigationBtn{
    position: absolute;
-   top: 15px;
+   top: 25px;
    right: 0;
    font-size: 20px;
-
+   font-weight: bolder;
 }
 #header{
    width: 100vw;
-   height: 40px;
+   height: 70px;
+   background: linear-gradient(to right ,#f40752,#f9ab8f);
 }
 #home{
    position: relative;
    left: -110px;
    text-decoration: none;
+   color: black;
+
 }
 #about{
    position: relative;
    left: -100px;
    text-decoration: none;
+   color: black;
 }
 #projects{
    position: relative;
    left: -90px;
    text-decoration: none;
+   color: black;
 }
 #edu{
    position: relative;
    left: -80px;
    text-decoration: none;
+   color: black;
 }
 #skills{
    position: relative;
    left: -70px;
    text-decoration: none;
+   color: black;
 }
 #qualifications{
    position: relative;
    left: -60px;
    text-decoration: none;
+   color: black;
 }
 #assigns{
    position: relative;
    left: -50px;
    text-decoration: none;
+   color: black;
 }
 #services{
    position: relative;
    left: -40px;
    text-decoration: none;
+   color: black;
 }
 #contact{
    position: relative;
    left: -30px;
    text-decoration: none;
+   color: black;
+}
+/*--------------------------home----------------------------------*/
+#homeSection{
+   width: 100vw;
+   height: 100vh;
+   border: cyan 2px solid;
+}
+#imgDiv{
+   position: absolute;
+   border: #f40752 solid 2px;
+   border-radius: 100%;
+   width: 100px;
+   aspect-ratio: 1/1;
+   top: 100px;
+   left: 50vw;
 }
