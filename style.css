@@ -130,7 +130,30 @@ body{
    color: #FF5F1F;
    font-size: 25px;
 }
+/*--------------------------about----------------------------------*/
+#abt{
+   width: 100vw;
+   height: 100vh;
+   position: relative;
+}
+#subSection{
+   width: 90vw;
+   height: 90vh;
+   border: #FF073A solid 2px;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right:0;
+   left: 0;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
 
+}
+#column1{
+   border: cyan 2px solid;
+
+}
 
 
 
