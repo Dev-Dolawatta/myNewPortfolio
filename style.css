@@ -160,8 +160,25 @@ body{
 }
 #column1{
    border: cyan 2px solid;
-
+   position: relative;
 }
+#myBigImg{
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom:0;
+   top: 0;
+   margin: auto;
+   border-radius: 35%;
+}
+#iconImgDiv{
+   position: absolute;
+   bottom: 10px;
+   left:110px;
+   margin: 20px;
+}
+
+
 
 
 
