@@ -203,8 +203,9 @@ body{
 }
 #column2{
    grid-column: 2/4;
-   border: cyan solid 2px;
    position: relative;
+   box-shadow: 5px 3px 20px 0 cyan ;
+
 }
 #pInfo{
    position: absolute;
@@ -237,6 +238,20 @@ body{
 #work{
    position: relative;
    top: 80px;
+}
+#cvBtn{
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
+   background: black;
+   color: white;
+}
+/*--------------------------projects----------------------------------*/
+#projectSec{
+   width: 100vw;
+   height:100vh;
+   border: cyan solid 2px;
+   box-sizing: border-box;
 }
 
 
