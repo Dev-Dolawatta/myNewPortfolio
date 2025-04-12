@@ -135,10 +135,11 @@ body{
    width: 100vw;
    height: 100vh;
    position: relative;
+   border: cyan solid 2px;
 }
 #subSection{
    width: 90vw;
-   height: 90vh;
+   height: 80vh;
    border: #FF073A solid 2px;
    position: absolute;
    top: 0;
@@ -150,10 +151,18 @@ body{
    grid-template-columns: repeat(3,1fr);
 
 }
+#txtAbt{
+   font-size: 35px;
+   color: white;
+   position: absolute;
+   left: 580px;
+   top: -15px;
+}
 #column1{
    border: cyan 2px solid;
 
 }
+
 
 
 
