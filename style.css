@@ -73,13 +73,13 @@ body{
 #homeSection{
    width: 100vw;
    height: 100vh;
-   border: cyan 2px solid;
    position: relative;
+   border-bottom: white 2px solid;
 }
 #HomeSectionDiv{
    border: red solid 2px;
    width: 70vw;
-   height: 80vh;
+   height: 90vh;
    position: absolute;
    top: 0;
    right:0;
@@ -93,7 +93,7 @@ body{
    border-radius: 100%;
    width: 100px;
    aspect-ratio: 1/1;
-   top: -240px;
+   top: -280px;
    right:0;
    bottom: 0;
    left: 0;
@@ -120,6 +120,12 @@ body{
    height: 250px;
    text-align: center;
    font-size: 25px;
+}
+#myName{
+   color: white;
+}
+#homeTxt1,#homeTxt2,#homeTxt3,#homeTxt4{
+   color: #c11e38;
 }
 
 
