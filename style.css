@@ -250,14 +250,77 @@ body{
 #projectSec{
    width: 100vw;
    height:100vh;
-   border: cyan solid 2px;
-   box-sizing: border-box;
+   position: relative;
+   border-bottom: white 2px solid;
+}
+#projectSec>div>h2{
+   font-size:35px ;
+   color: white;
+   position: absolute;
+   top:-20px;
+   left: 600px;
 }
 #subSec{
    width: 90vw;
-   height:90vh;
+   height:80vh;
    display: grid;
    grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(1,1fr);
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right:0;
+   left: 0;
+   margin:auto;
+   overflow: hidden;
+}
+#pro1{
+   position: relative;
+   margin: 2px;
+   border-top: #FF073A solid 2px;
+   border-left: #FF073A solid 2px;
+   box-shadow: 5px 3px 20px 0 cyan;
+}
+#pImg1{
+   position: absolute;
+   top: 10px;
+   left: 20px;
+}
+#pro1>div{
+   position: relative;
+   top: 250px;
+   left: 70px;
+   color: white;
+}
+#projectTitle{
+   font-size: 25px;
+
+}
+#projectsTxt.para{
+   position: absolute;
+   top: -20px;
+   font-family: sans-serif;
+}
+#pro1>a>img{
+   position: absolute;
+   top: 400px;
+   left: 160px;
+}
+#pro2{
+   margin: 2px;
+
+   /*box-shadow: 5px 3px 20px 0 cyan;*/
+}
+#pro3{
+   margin: 2px;
+   /*box-shadow: 5px 3px 20px 0 cyan;*/
+}
+#projectSec>input{
+   position: absolute;
+   bottom: 10px;
+   left: 600px;
+   background: black;
+   color: white;
 }
 
 
