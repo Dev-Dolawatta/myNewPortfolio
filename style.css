@@ -361,6 +361,22 @@ body{
    left: 50px;
    color: white;
    font-family: sans-serif;
+   font-size: 20px;
+}
+#div2{
+   border: cyan 2px solid;
+}
+#bar{
+   width: 10px;
+   height:480px;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   border-radius: 10px 10px 10px 10px;
+   background: #FF073A;
 }
 
 
