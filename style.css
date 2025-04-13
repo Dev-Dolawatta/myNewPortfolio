@@ -334,7 +334,10 @@ body{
    bottom: 0;
    left: 60px;
    border: cyan 2px solid;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
 }
+
 
 
 
