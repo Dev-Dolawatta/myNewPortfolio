@@ -158,7 +158,7 @@ body{
    font-size: 35px;
    color: white;
    position: absolute;
-   left: 580px;
+   left: 50vw;
    top: -15px;
 }
 #column1{
@@ -258,7 +258,7 @@ body{
    color: white;
    position: absolute;
    top:-20px;
-   left: 600px;
+   left: 50vw;
 }
 #subSec{
    width: 90vw;
@@ -318,10 +318,39 @@ body{
 #projectSec>input{
    position: absolute;
    bottom: 10px;
-   left: 600px;
+   left: 50vw;
    background: black;
    color: white;
 }
+/*--------------------------education----------------------------------*/
+#eduSection{
+   width: 100vw;
+   height: 100vh;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   position: relative;
+   border: cyan 2px solid;
+}
+#txtEducation{
+   position: absolute;
+   left: 50vw;
+   color: white;
+   font-size: 35px;
+   margin: 0;
+}
+#div1{
+   border: cyan 2px solid;
+   height: 90%;
+}
+#div2{
+   border: cyan 2px solid;
+   height: 90%;
+}
+#div3{
+   border: cyan 2px solid;
+   height: 90%;
+}
+
 
 
 
