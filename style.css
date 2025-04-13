@@ -388,6 +388,16 @@ body{
    top: 100px;
    left: 180px;
 }
+#circle2{
+   width: 20px;
+   aspect-ratio: 1/1;
+   border-radius: 100%;
+   background: white;
+   position: absolute;
+   top: 360px;
+   left: 180px;
+}
+
 
 
 
