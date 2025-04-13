@@ -776,6 +776,13 @@ body{
    top: 300px;
    left: 30px;
 }
+footer>div{
+   width: 100vw;
+   height: 5px;
+   border-radius: 10px 10px 10px 10px;
+   background: black;
+}
+
 
 
 
