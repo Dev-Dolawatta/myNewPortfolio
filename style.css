@@ -446,7 +446,6 @@ body{
 }
 #section1{
    border: cyan 2px solid;
-
 }
 #java{
    position: absolute;
@@ -489,6 +488,58 @@ body{
    font-size: 18px;
 }
 #js{
+   position: absolute;
+   top: 420px;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 18px;
+}
+#section2{
+   border: cyan 2px solid;
+   position: relative;
+}
+#NodeJs{
+   position: absolute;
+   top: 0;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 18px;
+}
+#vsCode{
+   position: absolute;
+   top: 75px;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 18px;
+}
+#gitIcon{
+   position: absolute;
+   top: 150px;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 18px;
+}
+#mongo{
+   position: absolute;
+   top: 225px;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 18px;
+}
+#springBoot{
+   position: absolute;
+   top: 340px;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 18px;
+}
+#spring{
    position: absolute;
    top: 420px;
    left: 100px;
