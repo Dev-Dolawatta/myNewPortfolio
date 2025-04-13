@@ -355,6 +355,13 @@ body{
    top: 20px;
    left: 60px;
 }
+#pTags{
+   position: absolute;
+   bottom: 20px;
+   left: 50px;
+   color: white;
+   font-family: sans-serif;
+}
 
 
 
