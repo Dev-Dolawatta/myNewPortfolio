@@ -365,6 +365,7 @@ body{
 }
 #div2{
    border: cyan 2px solid;
+   position: relative;
 }
 #bar{
    width: 10px;
@@ -377,6 +378,15 @@ body{
    margin: auto;
    border-radius: 10px 10px 10px 10px;
    background: #FF073A;
+}
+#circle1{
+   width: 20px;
+   aspect-ratio: 1/1;
+   border-radius: 100%;
+   background: white;
+   position: absolute;
+   top: 100px;
+   left: 180px;
 }
 
 
