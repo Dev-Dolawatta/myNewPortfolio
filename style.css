@@ -418,7 +418,6 @@ body{
 #skillsSec{
    width: 100vw;
    height: 100vh;
-   border: cyan 2px solid;
    position: relative;
 }
 #txtSkills{
@@ -438,14 +437,16 @@ body{
    left: 0;
    bottom: 0;
    margin: auto;
-   border: cyan 2px solid;
    display: grid;
+   border: #FF073A 2px solid;
    grid-template-columns: repeat(3,1fr);
    grid-template-rows: repeat(1,1fr);
    overflow: hidden;
 }
 #section1{
-   border: cyan 2px solid;
+   border-right: #FF073A 2px solid;
+   position: relative;
+
 }
 #java{
    position: absolute;
@@ -496,7 +497,7 @@ body{
    font-size: 18px;
 }
 #section2{
-   border: cyan 2px solid;
+   border-right: #FF073A 2px solid;
    position: relative;
 }
 #NodeJs{
