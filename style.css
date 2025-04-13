@@ -580,11 +580,10 @@ body{
    width: 100vw;
    height:100vh;
    position: relative;
-   border: cyan 2px solid;
 }
 #txtServices{
    position: absolute;
-   top:0;
+   top:-10px;
    left: 50vw;
    color: white;
    font-size: 35px;
@@ -606,11 +605,12 @@ body{
 }
 #firstDiv{
    position: relative;
+   border-right: #FF073A 2px solid;
 }
 #txtStand{
    position: absolute;
    top: 0;
-   left: 50px;
+   left: 60px;
    color: white;
    font-size: 25px;
 }
@@ -621,25 +621,38 @@ body{
 }
 #pTagDiv1{
    position: absolute;
-   top: 265px;
+   top: 268px;
    left:70px;
    color: #FF5F1F;
    font-size: 20px;
+   font-family: sans-serif;
 }
 #secondDiv{
-   border: cyan 2px solid;
    position: relative;
+   border-right: #FF073A 2px solid;
 }
 #txtMobile{
    position: absolute;
    top: 0;
-   left: 50px;
+   left: 60px;
    color: white;
    font-size: 25px;
 }
+#secondDiv>img{
+   position: absolute;
+   top: 80px;
+   left: 70px ;
+}
+#pTagDiv2{
+   position: absolute;
+   top: 268px;
+   left:70px;
+   color: #FF5F1F;
+   font-size: 20px;
+   font-family: sans-serif;
+}
 #thirdDiv{
-   border: cyan 2px solid;
-   position: relative;
+  position: relative;
 }
 #txtWeb{
    position: absolute;
