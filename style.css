@@ -604,7 +604,39 @@ body{
    grid-template-columns: repeat(3,1fr);
    grid-template-rows: repeat(1,1fr);
 }
-
+#firstDiv{
+   border: cyan 2px solid;
+   position: relative;
+}
+#txtStand{
+   position: absolute;
+   top: 0;
+   left: 50px;
+   color: white;
+   font-size: 25px;
+}
+#secondDiv{
+   border: cyan 2px solid;
+   position: relative;
+}
+#txtMobile{
+   position: absolute;
+   top: 0;
+   left: 50px;
+   color: white;
+   font-size: 25px;
+}
+#thirdDiv{
+   border: cyan 2px solid;
+   position: relative;
+}
+#txtWeb{
+   position: absolute;
+   top: 0;
+   left: 50px;
+   color: white;
+   font-size: 25px;
+}
 
 
 
