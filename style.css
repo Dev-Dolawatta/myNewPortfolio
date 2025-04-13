@@ -776,13 +776,24 @@ body{
    top: 300px;
    left: 30px;
 }
-footer>div{
+#footerFirstDiv{
    width: 100vw;
    height: 5px;
    border-radius: 10px 10px 10px 10px;
    background: black;
 }
+#copy{
+   position: relative;
+   left: -10px;
 
+}
+#footerSecondDiv{
+   display: flex;
+   width: 100vw;
+   height: 20px;
+   position: absolute;
+   left: 40vw;
+}
 
 
 
