@@ -593,7 +593,7 @@ body{
 #servicesSubSec{
    width: 90vw;
    height: 90vh;
-   border: cyan 2px solid;
+   border: #FF073A 2px solid;
    position: absolute;
    top: 20px;
    left: 0;
@@ -605,7 +605,6 @@ body{
    grid-template-rows: repeat(1,1fr);
 }
 #firstDiv{
-   border: cyan 2px solid;
    position: relative;
 }
 #txtStand{
@@ -614,6 +613,18 @@ body{
    left: 50px;
    color: white;
    font-size: 25px;
+}
+#firstDiv>img{
+   position: absolute;
+   top: 80px;
+   left: 70px ;
+}
+#pTagDiv1{
+   position: absolute;
+   top: 265px;
+   left:70px;
+   color: #FF5F1F;
+   font-size: 20px;
 }
 #secondDiv{
    border: cyan 2px solid;
