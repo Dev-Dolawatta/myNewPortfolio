@@ -422,7 +422,7 @@ body{
 }
 #txtSkills{
    position: absolute;
-   top: 0;
+   top: -10px;
    left: 50vw;
    margin: 0;
    color: white;
