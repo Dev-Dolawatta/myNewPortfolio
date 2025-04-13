@@ -1,3 +1,7 @@
+html{
+   scroll-behavior: smooth;
+   scroll-padding-top: 100px;
+}
 body{
    background-color: black;
 }
@@ -10,9 +14,13 @@ body{
    font-weight: bolder;
 }
 #header{
+   position: fixed;
+   top: 0;
    width: 100vw;
    height: 70px;
    background: linear-gradient(to right ,#f40752,#f9ab8f);
+   z-index: 999;
+
 }
 #home{
    position: relative;
