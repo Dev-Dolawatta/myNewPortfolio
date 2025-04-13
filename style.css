@@ -316,7 +316,7 @@ body{
 #projectSec>input{
    position: absolute;
    bottom: 10px;
-   left: 50vw;
+   left: 45vw;
    background: black;
    color: white;
 }
@@ -430,8 +430,8 @@ body{
    font-size: 35px;
 }
 #skillsSubSec{
-   width: 90%;
-   height: 90%;
+   width: 90vw;
+   height: 90vh;
    position: absolute;
    top: 20px;
    right: 0;
@@ -439,6 +439,62 @@ body{
    bottom: 0;
    margin: auto;
    border: cyan 2px solid;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(1,1fr);
+   overflow: hidden;
+}
+#section1{
+   border: cyan 2px solid;
+
+}
+#java{
+   position: absolute;
+   top: 0;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 18px;
+}
+#html{
+   position: absolute;
+   top: 75px;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 15px;
+}
+#mysql{
+   position: absolute;
+   top: 150px;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 18px;
+}
+#intelij{
+   position: absolute;
+   top: 225px;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 18px;
+}
+#github{
+   position: absolute;
+   top: 340px;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 18px;
+}
+#js{
+   position: absolute;
+   top: 420px;
+   left: 100px;
+   color: white;
+   display: flex;
+   font-size: 18px;
 }
 
 
