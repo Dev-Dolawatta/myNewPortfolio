@@ -414,7 +414,32 @@ body{
    bottom: 60px;
    left: 60px;
 }
-
+/*--------------------------skills----------------------------------*/
+#skillsSec{
+   width: 100vw;
+   height: 100vh;
+   border: cyan 2px solid;
+   position: relative;
+}
+#txtSkills{
+   position: absolute;
+   top: 0;
+   left: 50vw;
+   margin: 0;
+   color: white;
+   font-size: 35px;
+}
+#skillsSubSec{
+   width: 90%;
+   height: 90%;
+   position: absolute;
+   top: 20px;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   margin: auto;
+   border: cyan 2px solid;
+}
 
 
 
