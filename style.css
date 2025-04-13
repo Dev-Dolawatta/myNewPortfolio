@@ -575,7 +575,36 @@ body{
    display: flex;
    font-size: 18px;
 }
-/*------------------------------------------------------------*/
+/*--------------------------services----------------------------------*/
+#servicesOn{
+   width: 100vw;
+   height:100vh;
+   position: relative;
+   border: cyan 2px solid;
+}
+#txtServices{
+   position: absolute;
+   top:0;
+   left: 50vw;
+   color: white;
+   font-size: 35px;
+   margin: 0;
+}
+#servicesSubSec{
+   width: 90vw;
+   height: 90vh;
+   border: cyan 2px solid;
+   position: absolute;
+   top: 20px;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(1,1fr);
+}
+
 
 
 
